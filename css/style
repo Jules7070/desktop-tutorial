@@ -1,0 +1,195 @@
+/* Estilo personalizado */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+logo{max-width: 50%;
+    height: auto;}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Sección principal (Hero) */
+#hero {
+    background: url('../images/a1.png') no-repeat center center/cover;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+    background-attachment: fixed;
+	color: black;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+#hero .btn {
+    background-color: #ff4081;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero .btn:hover {
+    background-color: #e63950;
+}
+
+/* Sección de características */
+#features {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+#features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.features-grid article {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(33.333% - 30px);
+}
+
+.features-grid article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.features-grid article p {
+    font-size: 1rem;
+}
+
+/* Sección de productos */
+#productos {
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+
+#productos h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.productos-grid article {
+    flex: 1 1 calc(33.333% - 30px);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.productos-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.productos-grid h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.productos-grid p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+footer p a {
+    color: #ff4081;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #e63950;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .features-grid article,
+    .productos-grid article {
+        flex: 1 1 100%;
+    }
+}
