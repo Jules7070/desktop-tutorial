@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidado Coreano - Belleza y Cuidado de la Piel</title>
+    <meta name="description" content="Explora los mejores productos de cuidado coreano para mantener tu piel saludable y radiante. Descubre nuestra selección de cremas, tónicos, sueros y más.">
+	
+	<!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Cuidado Coreano - Belleza y Cuidado de la Piel">
+    <meta property="og:description" content="Descubre los mejores productos de belleza coreanos para una piel saludable y radiante.">
+    <meta property="og:image" content="images/og_image.jpg">
+    <meta property="og:url" content="https://www.tusitio.com">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <img class="logo" src="images/logo.png" alt="Logo Cuidado Coreano">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal (Hero) -->
+    <section id="hero">
+        <h1>Productos Coreanos para el Cuidado de la Piel</h1>
+        <p>Descubre una amplia gama de productos diseñados para nutrir, hidratar y embellecer tu piel.</p>
+        <a href="productos.html" class="btn">Explorar Productos</a>
+    </section>
+
+    <!-- Sección de características -->
+    <section id="features">
+        <h2>¿Por qué elegir productos de cuidado coreano?</h2>
+        <div class="features-grid">
+            <article>
+                <h3>Ingredientes Naturales</h3>
+                <p>Los productos de belleza coreanos están formulados con ingredientes naturales que son suaves y efectivos para la piel.</p>
+            </article>
+            <article>
+                <h3>Innovación en el cuidado</h3>
+                <p>La tecnología avanzada y las fórmulas innovadoras aseguran una piel más radiante y saludable.</p>
+            </article>
+            <article>
+                <h3>Ritual de Belleza</h3>
+                <p>El enfoque coreano en la belleza es más que productos, es un ritual diario de cuidado personal.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? <a href="mailto:info@cuidado-coreano.com">Escríbenos</a>.</p>
+        <p>&copy; 2024 Cuidado Coreano. Todos los derechos reservados.</p>
+    </footer>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
